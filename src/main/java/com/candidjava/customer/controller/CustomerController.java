@@ -47,9 +47,6 @@ public class CustomerController {
 		return appCustomerService.addUpdate(str);
 	}
 	
-	@PostMapping(value="/check-customer-exist")
-	public Map checkCustomerExist(@RequestBody String str) {
-		return null;
-	}
+
 	
 }
